@@ -1,0 +1,94 @@
+"location_id","short_name","percent_nd","trend_status","resid_normality_status","normality_status","log_normality_status","sample_date","mod_analysis_result"
+"L1","C1",0,"Trend","Parametric","Parametric","Parametric",2020-03-24,0.0637
+"L1","C1",0,"Trend","Parametric","Parametric","Parametric",2019-09-25,0.0671
+"L1","C1",0,"Trend","Parametric","Parametric","Parametric",2019-03-20,0.0603
+"L1","C1",0,"Trend","Parametric","Parametric","Parametric",2018-09-25,0.0584
+"L1","C1",0,"Trend","Parametric","Parametric","Parametric",2018-06-27,0.0603
+"L1","C1",0,"Trend","Parametric","Parametric","Parametric",2017-07-28,0.0532
+"L1","C1",0,"Trend","Parametric","Parametric","Parametric",2017-06-21,0.0531
+"L1","C1",0,"Trend","Parametric","Parametric","Parametric",2017-03-15,0.0488
+"L1","C1",0,"Trend","Parametric","Parametric","Parametric",2016-12-22,0.0509
+"L1","C1",0,"Trend","Parametric","Parametric","Parametric",2016-09-21,0.0578
+"L1","C1",0,"Trend","Parametric","Parametric","Parametric",2016-06-22,0.0533
+"L1","C1",0,"Trend","Parametric","Parametric","Parametric",2016-03-23,0.045
+"L1","C1",0,"Trend","Parametric","Parametric","Parametric",2016-01-19,0.0485
+"L2","C2",100,"No Trend (n<8)",NA,NA,NA,2020-03-24,0.001
+"L2","C2",100,"No Trend (n<8)",NA,NA,NA,2019-03-19,0.001
+"L2","C2",100,"No Trend (n<8)",NA,NA,NA,2018-06-26,0.001
+"L2","C2",100,"No Trend (n<8)",NA,NA,NA,2017-06-20,0.001
+"L2","C2",100,"No Trend (n<8)",NA,NA,NA,2017-03-15,0.001
+"L2","C2",100,"No Trend (n<8)",NA,NA,NA,2016-12-22,0.001
+"L3","C3",100,"No Trend",NA,NA,NA,2020-03-24,0.001
+"L3","C3",100,"No Trend",NA,NA,NA,2019-03-20,0.001
+"L3","C3",100,"No Trend",NA,NA,NA,2018-06-27,0.001
+"L3","C3",100,"No Trend",NA,NA,NA,2017-07-28,0.001
+"L3","C3",100,"No Trend",NA,NA,NA,2017-06-21,0.001
+"L3","C3",100,"No Trend",NA,NA,NA,2017-03-16,0.001
+"L3","C3",100,"No Trend",NA,NA,NA,2016-12-22,0.001
+"L3","C3",100,"No Trend",NA,NA,NA,2016-09-20,0.001
+"L3","C3",100,"No Trend",NA,NA,NA,2016-06-22,0.001
+"L3","C3",100,"No Trend",NA,NA,NA,2016-03-23,0.001
+"L3","C3",100,"No Trend",NA,NA,NA,2016-01-20,0.001
+"L4","C4",100,"No Trend",NA,NA,NA,2020-03-26,0.001
+"L4","C4",100,"No Trend",NA,NA,NA,2019-03-19,0.001
+"L4","C4",100,"No Trend",NA,NA,NA,2018-06-26,0.001
+"L4","C4",100,"No Trend",NA,NA,NA,2017-07-26,0.001
+"L4","C4",100,"No Trend",NA,NA,NA,2017-06-20,0.001
+"L4","C4",100,"No Trend",NA,NA,NA,2017-03-15,0.001
+"L4","C4",100,"No Trend",NA,NA,NA,2016-12-22,0.001
+"L4","C4",100,"No Trend",NA,NA,NA,2016-09-20,0.001
+"L4","C4",100,"No Trend",NA,NA,NA,2016-06-22,0.001
+"L4","C4",100,"No Trend",NA,NA,NA,2016-03-23,0.001
+"L4","C4",100,"No Trend",NA,NA,NA,2016-01-20,0.001
+"L5","C5",0,"No Trend (n<8)",NA,NA,NA,2020-03-26,0.244
+"L6","C6",100,"No Trend",NA,NA,NA,2020-03-25,2e-04
+"L6","C6",100,"No Trend",NA,NA,NA,2019-03-20,2e-04
+"L6","C6",100,"No Trend",NA,NA,NA,2018-06-27,2e-04
+"L6","C6",100,"No Trend",NA,NA,NA,2017-07-26,2e-04
+"L6","C6",100,"No Trend",NA,NA,NA,2017-06-19,2e-04
+"L6","C6",100,"No Trend",NA,NA,NA,2017-03-16,2e-04
+"L6","C6",100,"No Trend",NA,NA,NA,2016-12-27,2e-04
+"L6","C6",100,"No Trend",NA,NA,NA,2016-09-21,2e-04
+"L6","C6",100,"No Trend",NA,NA,NA,2016-06-23,2e-04
+"L6","C6",100,"No Trend",NA,NA,NA,2016-03-24,2e-04
+"L6","C6",100,"No Trend",NA,NA,NA,2016-01-21,2e-04
+"L3","C7",0,"No Trend","Parametric","Parametric",NA,2020-03-24,1.17
+"L3","C7",0,"No Trend","Parametric","Parametric",NA,2019-09-25,0.28
+"L3","C7",0,"No Trend","Parametric","Parametric",NA,2019-03-20,0.72
+"L3","C7",0,"No Trend","Parametric","Parametric",NA,2018-09-25,0.23
+"L3","C7",0,"No Trend","Parametric","Parametric",NA,2018-06-27,0.35
+"L3","C7",0,"No Trend","Parametric","Parametric",NA,2017-07-28,0.3
+"L3","C7",0,"No Trend","Parametric","Parametric",NA,2017-06-21,1.35
+"L3","C7",0,"No Trend","Parametric","Parametric",NA,2017-03-16,0.46
+"L3","C7",0,"No Trend","Parametric","Parametric",NA,2016-12-22,1.17
+"L3","C7",0,"No Trend","Parametric","Parametric",NA,2016-09-20,0.73
+"L3","C7",0,"No Trend","Parametric","Parametric",NA,2016-06-22,0
+"L3","C7",0,"No Trend","Parametric","Parametric",NA,2016-03-23,0.09
+"L3","C7",0,"No Trend","Parametric","Parametric",NA,2016-01-20,0.43
+"L3","C5",0,"No Trend","Parametric","Non-Parametric","Parametric",2020-03-24,0.0259
+"L3","C5",0,"No Trend","Parametric","Non-Parametric","Parametric",2019-09-25,0.0263
+"L3","C5",0,"No Trend","Parametric","Non-Parametric","Parametric",2019-03-20,0.0271
+"L3","C5",0,"No Trend","Parametric","Non-Parametric","Parametric",2018-09-25,0.0263
+"L3","C5",0,"No Trend","Parametric","Non-Parametric","Parametric",2018-06-27,0.0297
+"L3","C5",0,"No Trend","Parametric","Non-Parametric","Parametric",2017-07-28,0.0243
+"L3","C5",0,"No Trend","Parametric","Non-Parametric","Parametric",2017-06-21,0.025
+"L3","C5",0,"No Trend","Parametric","Non-Parametric","Parametric",2017-03-16,0.0237
+"L3","C5",0,"No Trend","Parametric","Non-Parametric","Parametric",2016-12-22,0.0239
+"L3","C5",0,"No Trend","Parametric","Non-Parametric","Parametric",2016-09-20,0.0375
+"L3","C5",0,"No Trend","Parametric","Non-Parametric","Parametric",2016-06-22,0.0247
+"L3","C5",0,"No Trend","Parametric","Non-Parametric","Parametric",2016-03-23,0.0264
+"L3","C5",0,"No Trend","Parametric","Non-Parametric","Parametric",2016-01-20,0.0303
+"L7","C8",100,"Trend","Parametric","Non-Parametric","Non-Parametric",2020-03-26,0.0015
+"L7","C8",100,"Trend","Parametric","Non-Parametric","Non-Parametric",2019-09-24,0.0015
+"L7","C8",100,"Trend","Parametric","Non-Parametric","Non-Parametric",2019-03-19,0.0015
+"L7","C8",100,"Trend","Parametric","Non-Parametric","Non-Parametric",2018-09-25,0.0015
+"L7","C8",100,"Trend","Parametric","Non-Parametric","Non-Parametric",2018-06-26,0.0015
+"L7","C8",100,"Trend","Parametric","Non-Parametric","Non-Parametric",2017-07-28,0.001
+"L7","C8",100,"Trend","Parametric","Non-Parametric","Non-Parametric",2017-06-20,0.001
+"L7","C8",100,"Trend","Parametric","Non-Parametric","Non-Parametric",2017-03-15,0.001
+"L7","C8",100,"Trend","Parametric","Non-Parametric","Non-Parametric",2016-12-22,0.001
+"L7","C8",100,"Trend","Parametric","Non-Parametric","Non-Parametric",2016-09-20,0.001
+"L7","C8",100,"Trend","Parametric","Non-Parametric","Non-Parametric",2016-08-18,0.001
+"L7","C8",100,"Trend","Parametric","Non-Parametric","Non-Parametric",2016-06-23,0.001
+"L7","C8",100,"Trend","Parametric","Non-Parametric","Non-Parametric",2016-03-22,0.001
+"L5","C9",0,"No Trend (n<8)",NA,NA,NA,2020-03-26,0.003
