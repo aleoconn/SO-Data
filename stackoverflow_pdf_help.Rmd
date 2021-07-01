@@ -1,0 +1,83 @@
+---
+output: 
+  pdf_document:
+    latex_engine: xelatex
+classoption: landscape
+geometry: paperheight=9in,paperwidth=15in,margin=1in
+mainfont: Verdana
+header-includes:
+   - \usepackage{fancyhdr}
+   - \usepackage{lastpage}
+   - \pagestyle{fancy}
+   - \renewcommand{\headrulewidth}{0pt}
+   - \fancyfoot[C]{\thepage\ of \pageref{LastPage}}
+   - \fancyhead[C]{\color{red} Header Text Goes Here}
+editor_options:
+  chunk_output_type: console
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = F)
+knitr::opts_chunk$set(message = F)
+knitr::opts_chunk$set(warning = F)
+```
+
+```{r packages}
+library(tidyverse)
+library(flextable)
+library(Hmisc)
+library(tinytex)
+```
+```{r table}
+
+vals=seq(1, 1000, by=0.25)
+
+cols=14
+
+col_names<-str_c(let=letters[1:cols], " ",
+       lab=c(rep("Extra long column text soooooo many words", cols/2), rep("Shorter text", cols/2)))
+
+table<-data.frame(matrix(sample(vals, cols*5, replace=T), nrow=5, ncol=cols))
+
+names(table)<-col_names
+
+```
+
+```{r flextable}
+table %>%
+  flextable()%>%
+  fontsize(size = 9, part = "all") %>% 
+  colformat_char(na_str="--") %>%
+  
+  border_inner(part="body", border=officer::fp_border(color="gray50") )%>%
+  border_outer(part="body", border=officer::fp_border(color="gray50") )%>%
+  border_inner(part="header", border=officer::fp_border(color="gray50") )%>%
+  border_outer(part="header", border=officer::fp_border(color="gray50") )%>%
+  align(i=1:nrow(table), j=1:ncol(table), "center", part="body") %>%
+  align(i=1, j=1:ncol(table), "center", part="header") %>%
+  valign(i=1, j=1:ncol(table), "bottom", part="header") %>%
+  font(i=1:nrow(table), j=1:ncol(table), "Verdana", part="body") %>% 
+  font(i=1, j=1:ncol(table), "Verdana", part="header") %>% 
+  
+  add_header_lines(c(rep("", 6))) %>% 
+  # compose(i=1, j=NULL, part="header", 
+  #         as_paragraph(as_chunk(lgl, props = officer::fp_text(italic=T, font.family="Calibri", font.size = 8, color="red")))) %>% 
+  compose(i=1, j=NULL, part="header", 
+          as_paragraph(as_chunk("TABLE NAME", props = officer::fp_text(bold = TRUE,  font.size = 9, font.family="Verdana")))) %>% 
+  compose(i=2, j=NULL, part="header", 
+          as_paragraph(as_chunk("REPORT", props = officer::fp_text(font.size = 9, font.family="Verdana"))))%>%
+  compose(i=3, j=NULL, part="header", 
+          as_paragraph(as_chunk("MORE DETAILS", props = officer::fp_text(font.size = 9, font.family="Verdana"))))%>%
+  compose(i=4, j=NULL, part="header", 
+          as_paragraph(as_chunk("YET MORE DETAILS", props = officer::fp_text(font.size = 9, font.family="Verdana"))))%>%
+  compose(i=5, j=NULL, part="header", 
+          as_paragraph(as_chunk("ADDRESS", 
+                                props = officer::fp_text(font.size = 9, font.family="Verdana"))))%>%
+  compose(i=6, j=NULL, part="header", 
+          as_paragraph(as_chunk("DRAFT - A WORK IN PROGRESS", 
+                                props = officer::fp_text(bold = TRUE, font.size = 9,  font.family="Verdana", color="red"))))%>%
+  width(j=1:ncol(table), width=ncol(table)/17)
+
+
+```
+
