@@ -60,8 +60,6 @@ table %>%
   font(i=1, j=1:ncol(table), "Verdana", part="header") %>% 
   
   add_header_lines(c(rep("", 6))) %>% 
-  # compose(i=1, j=NULL, part="header", 
-  #         as_paragraph(as_chunk(lgl, props = officer::fp_text(italic=T, font.family="Calibri", font.size = 8, color="red")))) %>% 
   compose(i=1, j=NULL, part="header", 
           as_paragraph(as_chunk("TABLE NAME", props = officer::fp_text(bold = TRUE,  font.size = 9, font.family="Verdana")))) %>% 
   compose(i=2, j=NULL, part="header", 
